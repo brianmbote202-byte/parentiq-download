@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ParentIQ - Download</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            background: #0b0d12;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 15px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 700px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            border-radius: 24px;
+            background: linear-gradient(135deg, #d4af37, #f5d76e);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #111;
+            font-size: 34px;
+            font-weight: bold;
+            box-shadow: 0 10px 35px rgba(212, 175, 55, 0.25);
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            color: #b8bcc7;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: #151821;
+            border: 1px solid #292e3a;
+            border-radius: 20px;
+            padding: 28px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .card h2 {
+            margin-bottom: 8px;
+            font-size: 22px;
+        }
+
+        .card p {
+            color: #aeb3bf;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .version {
+            display: inline-block;
+            font-size: 13px;
+            color: #d4af37;
+            margin-bottom: 18px;
+        }
+
+        .download-btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 15px;
+            border-radius: 12px;
+            background: #d4af37;
+            color: #111;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            transition: 0.2s;
+        }
+
+        .download-btn:hover {
+            background: #f5d76e;
+            transform: translateY(-1px);
+        }
+
+        .notice {
+            margin-top: 30px;
+            padding: 18px;
+            background: #11141b;
+            border: 1px solid #242936;
+            border-radius: 14px;
+            color: #9ea4b2;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        footer {
+            margin-top: 35px;
+            color: #707684;
+            font-size: 13px;
+        }
+
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 34px;
+            }
+
+            .card {
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">
+        P
+    </div>
+
+    <h1>ParentIQ</h1>
+
+    <p class="tagline">
+        Smarter parental control for your family.
+    </p>
+
+
+    <!-- PARENT APP -->
+
+    <div class="card">
+
+        <h2>Parent App</h2>
+
+        <p>
+            Manage your children's screen time, locations,
+            app rules, geofences and family safety settings.
+        </p>
+
+        <span class="version">
+            Latest version: 1.0.0
+        </span>
+
+        <a
+            class="download-btn"
+            href="downloads/parentiq-parent.apk"
+        >
+            Download Parent App
+        </a>
+
+    </div>
+
+
+    <!-- CHILD APP -->
+
+    <div class="card">
+
+        <h2>Child App</h2>
+
+        <p>
+            Install the ParentIQ Child app on the device
+            you want to manage.
+        </p>
+
+        <span class="version">
+            Latest version: 1.0.0
+        </span>
+
+        <a
+            class="download-btn"
+            href="downloads/parentiq-child.apk"
+        >
+            Download Child App
+        </a>
+
+    </div>
+
+
+    <div class="notice">
+
+        <strong>Installation notice</strong><br><br>
+
+        ParentIQ is distributed directly by ParentIQ Tech.
+        Android may ask you to allow installation from this
+        source before installing the application.
+
+    </div>
+
+
+    <footer>
+        © 2026 ParentIQ Tech. All rights reserved.
+    </footer>
+
+</div>
+
+</body>
+</html>
